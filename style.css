@@ -1,0 +1,68 @@
+.tab{
+    margin: 5%;
+    height: 40;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 16px 32px;
+    box-shadow: 100% rgb(150, 150, 150);
+
+}
+.txt{
+    width: 30%;
+    height: 20%;
+    border: solid;
+    background-color: rgb(229, 131, 33);
+    color: azure;
+    cursor: pointer;
+    padding: 16px;
+    /* display: grid; */
+    place-items: center;
+    place-content: center;
+    box-sizing: border-box;
+    text: bold;
+
+
+    
+    
+}
+.date{
+    /* cursor: pointer; */
+    box-sizing: 10%;
+    height: 20%;
+    width: 30%;
+}
+.adult{
+    margin: 2%;
+    width: 25%;
+    height: 35px;
+    padding: right;
+    border: 0px;
+
+}
+.trip{
+    margin: 2%;
+    width: 25%;
+    height: 35px;
+    border: 0px;
+
+}
+.f{
+    margin: 2%;
+    width: 25%;
+    height: 35px;
+    border: 0px;
+}
+.t{
+    margin: 2%;
+    width: 25%;
+    height: 35px;
+    border: 0px;
+}
+.d{
+    margin: 2%;
+    width: 25%;
+    height: 35px;
+    border-radius: 0px;
+    text-size-adjust: bold;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round Up</title>
+</head>
+<body>
+    <body style="background-color: lightsteelblue;">
+        <!-- <img src="air.jpg" alt="airindia.com" width="100%" height="400" > -->
+        <form class="tab">
+            <img src="air.jpg" width="100%" height="400">
+            <label style="text-align:center;"> Select Your Trip :</label>
+            <!-- <label>Select Adult</label> -->
+            <select class="trip" name="flight" id="airindia">
+                <option value="oneway" href="PlaneTicketBooking.htlm" >One Way</option>
+                <option value="roundtrip">Round Trip</option>
+            </select>
+            <select class="adult">
+            <label>Adult</label>
+            <option value="above 18">Above 18</option>
+            <option value="below 18">Below 18</option>
+            </select>
+            <div>
+            <label >From :</label>
+            <input class="f"  type="text" placeholder="Type Departure City" >
+            <label >To :</label>
+            <input class="t"  type="text" placeholder="Type Destination City">
+            </div>
+            <!-- <br> -->
+            <!-- <div> -->
+            <label>Date :</label>
+            <input class="d" type="date" id="date">
+            <label>Returnig Date :</label>
+            <input class="d" type="date">
+            <!-- <input class="txt" type="button" value="Search Filght"  > -->
+            <button class="txt" type="Search flight" value="Search flight">Search flight</button>
+            <!-- </div> -->
+        </form>
+    
+</body>
+    
+</html>
